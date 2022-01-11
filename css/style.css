@@ -1,0 +1,120 @@
+body{
+	background-color: green;
+}
+div.building
+{
+	box-sizing: border-box;
+	border: 2px solid black;
+	background-color: #3C3A39;
+	position:relative;
+	width: 600px;
+	height: 500px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 200px;
+	margin-bottom: 20px;
+}
+
+
+div.column-container
+{
+	
+	background-color: gray;
+	border: 2px solid white;
+	height: 240px;
+	width: 400px;
+	position: absolute;
+	left: 100px;
+	top: 250px;
+	
+	
+}
+
+div.column
+{
+	background-color: white;
+	padding: 10px;
+	height: 200px;
+	width: 30px;
+	position: absolute;
+
+} 
+
+div.window
+{
+	height: 150px;
+	width: 150px;
+	border: 2px solid white;
+	background-color: black;
+	position: absolute;
+}
+div.door
+{
+	background-color: black;
+	padding: 10px;
+	height: 100px;
+	width: 90px;
+	position: absolute;
+	left: 146px;
+	top: 89px;
+}
+
+div.line
+{	
+	background-color: white;
+	height: 120px;
+	width: 10px;
+	position: absolute;
+	top:0px;
+	left: 51px;
+}
+
+div.road
+{
+	background-color: black;
+	clear: both;
+	width: 100%;
+	height: 200px;
+}
+
+#window1
+{
+	top: 64px;
+	left: 64px;
+}
+
+#window2
+{
+	top: 64px;
+	right: 64px;
+}
+#column1
+{
+	left: 0;
+	margin: 10px;
+}
+
+#column2
+{
+	margin: 10px;
+	right: 0;
+}
+
+#column3
+{
+	left: 0;
+	margin-top: 10px;
+	margin-left: 74px;
+	
+}
+
+#column4
+{
+	left: 0;
+	margin-top: 10px;
+	margin-left: 278px;
+	
+}
+
+
+
